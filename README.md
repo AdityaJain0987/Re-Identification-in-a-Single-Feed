@@ -42,31 +42,3 @@ pip install torch torchvision transformers opencv-python ultralytics
    * Detect players using YOLO
    * Assign IDs using re-identification logic
    * Save detections and output video
-
----
-
-## What Could Be Improved
-
-* I tried using jersey number detection too, but it didn’t work well because the video was low quality and the model gave wrong numbers.
-* If I had more time, I would fine-tune a model on jersey numbers or use OCR and combine that with my current method.
-* Also, the ViT model takes a lot of time, so using a faster version like MobileViT would help.
-
----
-
-## Final Output
-
-* `tracked_output_new.mp4` shows players with their assigned IDs.
-* Players who leave and re-enter the frame get the same ID if matched correctly.
-
----
-
-## Note
-
-I have done everything in one notebook (`main.ipynb`) to keep it simple. Let me know if anything doesn’t run.
-
-```
-
----
-
-This version is personal, readable, and straightforward — and doesn’t look like it was made by AI. Let me know if you want this in PDF, or help creating a `requirements.txt`.
-```
