@@ -24,6 +24,7 @@ This is a small project where I had to track soccer players in a 15-second video
 - `yolo_detections.json`: Stores the bounding boxes for each frame.
 - `tracked_output_new.mp4`: Final video with player tracking output.
 - `tracking_results.json`: Metadata about tracked players.
+- `Report`: Deccribes what remains and how i will proceede with more time/resources.
 
 ---
 
